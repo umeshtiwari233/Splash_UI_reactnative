@@ -10,7 +10,7 @@ import Main from './components/Smarthome/Main';
 import Lamp from './components/Smarthome/Lamp';
 // AppRegistry.registerComponent(appName, () => App);
 
-//AppRegistry.registerComponent(appName, () => Usage_main);
+AppRegistry.registerComponent(appName, () => Usage_main);
 
 //AppRegistry.registerComponent(appName, () => Main);
-AppRegistry.registerComponent(appName, () => Lamp);
+//AppRegistry.registerComponent(appName, () => Lamp);

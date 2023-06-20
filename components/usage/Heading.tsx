@@ -13,6 +13,18 @@ export default class Heading extends Component {
                 <Image source={{uri:'https://cdn-icons-png.flaticon.com/512/1421/1421366.png'}} style={styles.image}/>
             </View>
         </View>
+        <View style={styles.cardgm}>
+        <View>
+                <Text style={{color:'white',fontSize:16}}>Usage this week</Text>
+            </View>
+            <View>
+            <Text style={{color:'white',fontSize:15, fontWeight:"bold"}}>2500 watt</Text>
+            </View>
+
+        </View>
+            <View>
+                <Image  source={require('../../assets/images/graph.jpeg')} style={{marginLeft:20,marginBottom:10,width:350,height:180}}/>
+            </View>
         </View>
     )
   }
@@ -44,8 +56,7 @@ const styles = StyleSheet.create({
         height: 100,
         flexDirection:"row",
         justifyContent: 'space-between',
-        borderBottomLeftRadius:37,
-        padding:20,
+        padding:10,
         fontSize: 24,
     },
    
