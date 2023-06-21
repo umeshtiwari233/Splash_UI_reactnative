@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         borderTopColor:'grey',
         // top
         borderTopWidth:0.2,
-        marginTop:25,
+        marginTop:5,
         marginBottom:13,
         width:400,
         // flex:0.1,

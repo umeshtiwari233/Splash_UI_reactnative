@@ -32,6 +32,20 @@ export default class Scroll extends Component {
       </View>
         {/* <Text style={{color:'black'}}>Scroll</Text> */}
       </View>
+      <View style={styles.main2}>
+      <View style={{flexDirection:'row'}}>
+        <Image source={{uri:'https://cdn-icons-png.flaticon.com/128/39/39134.png'}} style={{height:22,width:50,marginTop:20,marginLeft:20}}/>
+        <Image source={{uri:'https://cdn-icons-png.flaticon.com/128/5566/5566931.png'}} style={{height:25,width:30,marginTop:15,marginLeft:70}}/>
+        
+        </View>{/* <Text style={{color:'black'}}>Scroll</Text> */}
+        <View style={{marginLeft:18,marginTop:40}}>
+        <Text style={{fontSize:21,fontWeight:500,color:'black'}}>AED 9,870.00</Text>
+        <Text style={{fontSize:17,fontWeight:500,color:'grey'}}>Saving</Text>
+      <Text style={{fontSize:12,fontWeight:500,marginTop:25,color:'black'}}>CARD NO.</Text>
+      <Text style={{fontSize:18,fontWeight:500,color:'grey'}}>XXXX 2283</Text>
+      </View>
+        {/* <Text style={{color:'black'}}>Scroll</Text> */}
+      </View>
       
       </ScrollView>
     )
