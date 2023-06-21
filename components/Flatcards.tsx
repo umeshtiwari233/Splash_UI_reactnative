@@ -9,8 +9,12 @@ export default class Flatcards extends Component {
             <SafeAreaView>
             <View>
                 <View style={styles.cardOne}>
+                    <Image source={{uri:'https://cdn-icons-png.flaticon.com/128/616/616516.png'}} style={{height:100,width:100,position:'absolute',top:-11,left:-9}}/>
+                    <Image source={{uri:'https://cdn-icons-png.flaticon.com/128/616/616516.png'}} style={{height:100,width:100,position:'absolute',top:-36,right:-26}}/>
+              
                 <First/>
                 <Second/>
+                <Image source={{uri:'https://cdn-icons-png.flaticon.com/128/439/439842.png'}} style={{height:60,width:60,position:'absolute',top:190,right:-11}}/>
                 </View>
                 <View style={styles.cardTwo}>
                     
@@ -33,6 +37,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         borderBottomLeftRadius:37,
         flex:1,
+        marginTop:0,
         //flexDirection:"row"
         
     },

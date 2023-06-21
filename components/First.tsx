@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
         borderBottomLeftRadius:37,
         padding:20,
         fontSize: 24,
+        marginTop:12
     },
     cardTwo: {
         fontSize: 24,
